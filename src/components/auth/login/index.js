@@ -3,14 +3,16 @@ import Image from "next/image";
 export default function Login() {
   return (
     <div className="flex justify-center items-center w-screen h-screen bg-cyan-100">
-      <div className="flex flex-col w-6/12 2xl:4/12 lg:w-5/12 md:w-6/12 sm:w-full xsm:w-full h-auto bg-white items-center rounded-l-xl shadow-2xl sm:rounded">
-        <h1 className="text-4xl pt-8 pb-10 font-ubunto">Login</h1>
+      <div className="flex flex-col w-6/12 xxl:w-4/12 lg:w-5/12 md:w-6/12 sm:w-full xsm:w-full h-auto bg-white items-center rounded-l-xl shadow-2xl sm:rounded">
+        <h1 className="text-4xl pt-8 pb-10 text-neutral-500 font-ubunto">
+          Login
+        </h1>
         <div className="">
           <label className="pr-6 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
             Email
           </label>
           <input
-            className="bg-gray-200 p-3 border-red-200 xl:w-96 w-60 border-2 rounded-r font-ubunto focus:border-gray-500 focus:outline-none"
+            className="bg-gray-50 p-3 border-red-200 xl:w-96 w-60 border-2 rounded-r font-ubunto focus:border-gray-500 focus:outline-none"
             type="text"
             placeholder="    exemplo@mail.com"
           ></input>
@@ -20,13 +22,13 @@ export default function Login() {
             Senha:
           </label>
           <input
-            className="bg-gray-200 p-3 border-red-200 xl:w-96 w-60 border-2 rounded-r focus:border-gray-500 focus:outline-none"
+            className="bg-gray-50 p-3 border-red-200 xl:w-96 w-60 border-2 rounded-r focus:border-gray-500 focus:outline-none"
             type="password"
             placeholder="    ************"
           ></input>
         </div>
         <div className="flex justify-center">
-          <button className="bg-red-200 h-auto w-80 xl:w-96  m-5 p-2 rounded-md font-ubunto">
+          <button className="bg-red-200 h-auto w-80 xl:w-full xl:pr-52 xl:pl-52 m-5 p-2 rounded-md font-ubunto">
             Entrar
           </button>
         </div>
@@ -57,7 +59,7 @@ export default function Login() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-col w-5/12 lg:w-5/12 md:w-6/12 sm:hidden xsm:hidden h-96 bg-red-100 items-center rounded-r-xl shadow-2xl"></div>
+      <div className="flex flex-col w-5/12 xxl:w-4/12 lg:w-5/12 md:w-6/12 sm:hidden xsm:hidden h-96 bg-red-100 items-center rounded-r-xl shadow-2xl"></div>
     </div>
   );
 }

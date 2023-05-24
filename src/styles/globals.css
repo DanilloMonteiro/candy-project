@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("./font.css");
+@import url("./left-side-bar.css");
 
 :root,
 body {
