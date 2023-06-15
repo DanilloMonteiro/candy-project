@@ -9,7 +9,7 @@ export default function Register() {
           Registre-se
         </h1>
         <div className="">
-          <label className="px-12 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="px-12 p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Nome:
           </label>
           <input
@@ -19,7 +19,7 @@ export default function Register() {
           ></input>
         </div>
         <div className="pt-5">
-          <label className="px-7 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="px-7 p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Sobrenome:
           </label>
           <input
@@ -29,7 +29,7 @@ export default function Register() {
           ></input>
         </div>
         <div className="pt-5">
-          <label className="px-[51px] p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="px-[51px] p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Email:
           </label>
           <input
@@ -39,7 +39,7 @@ export default function Register() {
           ></input>
         </div>
         <div className="pt-5">
-          <label className="px-12 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="px-12 p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Senha:
           </label>
           <input
@@ -49,7 +49,7 @@ export default function Register() {
           ></input>
         </div>
         <div className="pt-5">
-          <label className="pr-2 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="pr-2 p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Confirmar senha:
           </label>
           <input

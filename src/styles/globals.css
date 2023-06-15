@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("./font.css");
-@import url("./left-side-bar.css");
+@import url("./menu-page.css");
 
 :root,
 body {

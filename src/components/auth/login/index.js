@@ -8,7 +8,7 @@ export default function Login() {
           Login
         </h1>
         <div className="">
-          <label className="pr-6 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="pr-6 p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Email
           </label>
           <input
@@ -18,7 +18,7 @@ export default function Login() {
           ></input>
         </div>
         <div className="pt-5">
-          <label className="pr-3 p-3.5 border-red-200 border-[3px] border-b-[3px] bg-red-200 rounded-l font-ubunto">
+          <label className="pr-3 p-3.5 border-red-200 border-[1px] border-b-[2px] bg-red-200 rounded-l font-ubunto">
             Senha:
           </label>
           <input
